@@ -1,27 +1,47 @@
 
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
-
 #  BMI Calculator
 
-## Our Goal
+## Introduction
 
-The goal of this tutorial is to learn more about Optionals, solidify your understanding of the MVC design pattern and to introduce the concept of Classes. We’ll compare objects created from classes with instances of Structs that we learnt about earlier. 
+BMI Calculator is a versatile iOS application designed to help users track their body mass index (BMI) effortlessly. With intuitive controls and dynamic features, this application provides users with valuable insights into their health and fitness levels.
 
-## What you will create
+## Screenshot
 
-By the end of the module, you will have made a Body Mass Index calculator. Based on the user’s weight and height it will calculate their body mass and give a piece of health advice depending on whether if they have eaten too many pies or if they need to eat more pies. 
+<img src="https://github.com/kri-eng/BMI-Calculator/assets/124129235/cb0fe717-4870-470b-b461-72c78b8e75e9" alt="Xylophone-Screenshot" width=300>
 
-## What you will learn
+<img src="https://github.com/kri-eng/BMI-Calculator/assets/124129235/59d99437-0cc8-4162-86e7-b6bbcb5db70c" alt="Xylophone-Screenshot" width=300>
 
-* How to create multi-screen apps with animated navigation.
-* Optional binding, optional chaining and the nil coalescing operator.
-* How to create classes and difference between classes and structs. 
-* Pass by value vs. pass by reference. 
-* Formatting Strings. 
-* Color literals.
+<img src="https://github.com/kri-eng/BMI-Calculator/assets/124129235/2e1c1464-1449-4350-9778-9b0efe437874" alt="Xylophone-Screenshot" width=300>
 
+<img src="https://github.com/kri-eng/BMI-Calculator/assets/124129235/3c28852f-e95d-45ed-8036-6a115dd51502" alt="Xylophone-Screenshot" width=300>
 
+## User Interface
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+The user interface of BMI Calculator includes two distinct screens:
 
-![End Banner](Documentation/readme-end-banner.png)
+1. **Input Screen:** Displays slide bars for inputting height (in meters) and weight (in kilograms), along with a label prompting users to "Calculate your BMI".
+
+2. **Result Screen:** Features three labels:
+    - "Your Result": Indicates the result section.
+    - BMI Value: Displays the calculated BMI.
+    - Suggestion: Provides personalized suggestions based on the calculated BMI.
+    
+    Additionally, a "Recalculate" button allows users to return to the input screen for further calculations.
+
+## Functionality
+
+BMI Calculator offers the following functionalities:
+
+- **BMI Calculation:** Upon pressing the "Calculate" button, the application calculates the BMI using the formula: Weight / (Height)^2.
+- **Dynamic Interface:** The background color of the result screen changes based on the calculated BMI, providing visual feedback to the user (e.g., red for obese, green for normal, blue for underweight).
+- **Personalized Suggestions:** Suggestions for maintaining a healthy lifestyle are dynamically allocated based on the calculated BMI.
+- **Navigation:** Users can seamlessly navigate between input and result screens, facilitating ease of use and interaction.
+
+## Learnings
+
+- Multi-screen app development
+- Optional binding and chaining
+- Classes vs Structs
+- Pass by value vs pass by reference
+- String formatting
+- Color literals
